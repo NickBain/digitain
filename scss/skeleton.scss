@@ -675,13 +675,12 @@ section.one{
 }
 
 section.two{
-  background-color: #099A4D;
+  background-color: $dark-grey;
   color: #fff;
 }
 
 section.three{
-  background-color: $dark-grey;
-  color: $light-grey;
+  background-color: lighten($light-grey, 6.6%);
   text-align: left;
   padding: 1rem 0 1rem;
   font-size: 1.2rem;
