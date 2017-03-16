@@ -652,7 +652,8 @@ hr {
 //Customisations
 #banner{
   background-image: url(../images/dark_tint2.png), url(../images/mac3.jpg);
-    background-position: center center;
+    background-position: 0 0;
+    background-attachment: fixed;
     background-size: cover;
     color: #ffffff;
     padding: 14em 0em 14em;

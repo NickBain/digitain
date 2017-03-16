@@ -32,11 +32,6 @@
     width: 85%;
     padding: 0; } }
 @media (min-width: 550px) {
-  .flex{
-    display: flex;
-     align-items: stretch;
-  }
-
   .container {
     width: 80%; }
 
@@ -489,7 +484,8 @@ hr {
     padding: 4rem 0 5rem; } }
 #banner {
   background-image: url(../images/dark_tint2.png), url(../images/mac3.jpg);
-  background-position: center center;
+  background-position: 0 0;
+  background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
   padding: 14em 0em 14em;
