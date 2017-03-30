@@ -300,7 +300,6 @@ button:focus {
   border-color: lighten($dark-grey, 33.3%);
   outline: 0;
 }
-
 input {
   &[type="submit"]:focus,
   &[type="reset"]:focus,
@@ -651,7 +650,7 @@ hr {
 
 //Customisations
 #banner{
-  background-image: url(../images/dark_tint2.png), url(../images/mac3.jpg);
+  background-image: url('../images/splash-compressor.jpg');
     background-position: 0 0;
     background-attachment: fixed;
     background-size: cover;
@@ -671,12 +670,19 @@ hr {
 }
 
 section.one{
-  background-color: lighten($light-grey, 6.6%);
+ // background-color: lighten($light-grey, 6.6%);
 }
 
 section.two{
-  background-color: $dark-grey;
+  padding-left: 1rem ;
+  padding-right: 1rem ;
+  a{color: white; text-decoration:none}
+  background-color: #2980B9;
   color: #fff;
+  li {list-style-type: none;
+    i{padding-right: 10px;}
+  }
+
 }
 
 section.three{
@@ -684,6 +690,7 @@ section.three{
   text-align: left;
   padding: 1rem 0 1rem;
   font-size: 1.2rem;
+
 }
 
 header.major{
@@ -693,10 +700,11 @@ header.major{
   }
 }
 
+
 .service{
-  background-color: #fff;
+  //background-color: #fff;
   padding: 2rem;
-  border: 1px solid $light-grey;
+  //border: 1px solid $light-grey;
   text-align: center;
 }
 

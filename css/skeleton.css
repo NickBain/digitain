@@ -483,7 +483,7 @@ hr {
   .section {
     padding: 4rem 0 5rem; } }
 #banner {
-  background-image: url(../images/dark_tint2.png), url(../images/mac3.jpg);
+  background-image: url("../images/splash-compressor.jpg");
   background-position: 0 0;
   background-attachment: fixed;
   background-size: cover;
@@ -497,12 +497,18 @@ hr {
   #banner p {
     font-size: 2rem; }
 
-section.one {
-  background-color: #f2f2f2; }
-
 section.two {
-  background-color: #333;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #2980B9;
   color: #fff; }
+  section.two a {
+    color: white;
+    text-decoration: none; }
+  section.two li {
+    list-style-type: none; }
+    section.two li i {
+      padding-right: 10px; }
 
 section.three {
   background-color: #f2f2f2;
@@ -516,9 +522,7 @@ header.major {
     font-size: 2rem; }
 
 .service {
-  background-color: #fff;
   padding: 2rem;
-  border: 1px solid #e1e1e1;
   text-align: center; }
 
 .icon.rounded {
