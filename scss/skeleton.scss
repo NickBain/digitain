@@ -651,8 +651,8 @@ hr {
 //Customisations
 #banner{
   background-image: url('../images/splash-compressor.jpg');
-    background-position: 0 0;
     background-attachment: fixed;
+    background-position: center;
     background-size: cover;
     color: #ffffff;
     padding: 14em 0em 14em;
@@ -666,6 +666,7 @@ hr {
 
     p{
       font-size: 2rem;
+      text-shadow: 1px 1px 1px #000;
     }
 }
 
@@ -674,7 +675,7 @@ section.one{
 }
 
 section.two{
-  padding-left: 1rem ;
+  padding-left: 4rem ;
   padding-right: 1rem ;
   a{color: white; text-decoration:none}
   background-color: #2980B9;
@@ -682,7 +683,6 @@ section.two{
   li {list-style-type: none;
     i{padding-right: 10px;}
   }
-
 }
 
 section.three{

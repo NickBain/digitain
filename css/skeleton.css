@@ -484,8 +484,8 @@ hr {
     padding: 4rem 0 5rem; } }
 #banner {
   background-image: url("../images/splash-compressor.jpg");
-  background-position: 0 0;
   background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   color: #ffffff;
   padding: 14em 0em 14em;
@@ -495,10 +495,11 @@ hr {
     font-weight: normal;
     font-size: 4em; }
   #banner p {
-    font-size: 2rem; }
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px #000; }
 
 section.two {
-  padding-left: 1rem;
+  padding-left: 4rem;
   padding-right: 1rem;
   background-color: #2980B9;
   color: #fff; }
